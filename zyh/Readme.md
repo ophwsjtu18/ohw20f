@@ -20,8 +20,10 @@ protected void onDestroy(){
 # just for testing
 print("hello world")
 ```
-[image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)  
-这里是[image]
+[image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true "名称" 
+[This is an image]
+
+![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
 
 * 项目1
@@ -37,3 +39,14 @@ print("hello world")
 |:----:|:---:|:---:|
 | tony | 20 | 男 |
 | lucy | 18 | 女 |
+
+### 有序列表
+4. 列表1
+3. 列表2
+2. 列表3
+1. 列表4
+
+### 无序列表
++ 3
++ 2
++ 1
