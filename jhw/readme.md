@@ -7,5 +7,8 @@ Hello i am jhw
 ###### H6
 *SGWDK*
 **bold**
-![http://example.com/image/pat.png]
+
 ![https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG]
+|sgwdk|sgzmy|
+|-----|-----|
+|wdksg|zmysg|
