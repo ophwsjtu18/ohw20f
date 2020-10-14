@@ -17,6 +17,7 @@ protected void onDestroy(){
     EventBus.getDefault().unregister(this);
     super.onDestroy();
 }
+print("hello world")
 ```
 [image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
