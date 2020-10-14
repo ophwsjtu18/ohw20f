@@ -11,3 +11,6 @@
 ~~context~~
 
 ![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
+
+[image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
+
