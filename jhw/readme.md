@@ -12,5 +12,4 @@ Hello i am jhw
 |Is sg|Name|Judge|
 |-----|-----|-----|
 ||wdk|yes|
-|-----|-----|-----|
 ||zmy|yes|
