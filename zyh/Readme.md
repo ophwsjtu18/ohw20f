@@ -27,5 +27,5 @@ protected void onDestroy(){
 
 ~~Just for testing.~~
 
-> 鲁迅说过
+> 鲁迅说过  
 > zyh说过
