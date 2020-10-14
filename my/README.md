@@ -20,5 +20,10 @@ ___
 ```
 print()
 ```   
---2333--   
+~~2333~~   
 Test\
+[x]Finished
+[]Unfinished
+[]\Optional
+@Jack
+:smile:
