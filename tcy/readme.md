@@ -16,5 +16,3 @@ Hello world!
 >rain
 
 "YES OR NO"
-
-""RIGHT""
