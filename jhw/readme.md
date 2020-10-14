@@ -8,7 +8,7 @@ Hello i am jhw
 *SGWDK*
 **bold**
 
-![https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG]
+![Alt TEXT](https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG)
 |Name|Judge Is sg|
 |-----|-----|
 |wdk|yes|
