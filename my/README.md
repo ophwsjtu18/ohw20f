@@ -21,9 +21,6 @@ ___
 print()
 ```   
 ~~2333~~   
-Test\
--[x]Finished   
--[]Unfinished   
--[]\Optional   
-@Jack   
+Test\  
+
 :smile:
