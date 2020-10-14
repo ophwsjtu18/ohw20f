@@ -6,6 +6,8 @@
 
 *context*
 
-**context**
+**context _line_**
 
-context
+~~context~~
+
+![](http://example.com/imge/path.png)
