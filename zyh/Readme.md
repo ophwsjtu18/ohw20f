@@ -34,5 +34,5 @@ print("hello world")
 ### 表格
 | name | age | sex |
 |:-------:|:------------|--------:|
-| tony | 20 | 男 |
-| lucy | 18 | 女 |
+| tony | 20 |   男 |
+| lucy | 18 |   女 |
