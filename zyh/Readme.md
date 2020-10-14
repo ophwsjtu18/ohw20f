@@ -25,4 +25,4 @@ protected void onDestroy(){
 ```
 ![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
-Just for testing.
+~~Just for testing.
