@@ -15,7 +15,7 @@
 |Jack|male|21|
 
 ___
-[Bilibili](https://www.bilibili.com)
+[Bilibili](https://www.bilibili.com)   
 `print()`
 ```
 print()
