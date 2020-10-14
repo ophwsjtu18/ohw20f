@@ -2,9 +2,9 @@
 
 ![](https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG)
 
-|X|Y|
-|---------|---------|
-|1|2|
-|3|4|
-|5|6|
-|7|8|
+|X|Y|Z|
+|---------|---------|---------|
+|1|2|1|
+|3|4|2|
+|5|6|2|
+|7|8|0|
