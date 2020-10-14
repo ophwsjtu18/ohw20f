@@ -20,8 +20,8 @@ protected void onDestroy(){
 # just for testing
 print("hello world")
 ```
-[image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true  
-这里是image
+[image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true "名称" 
+这里是[image]
 
 ![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
