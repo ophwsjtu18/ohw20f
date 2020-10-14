@@ -22,7 +22,8 @@ print("hello world")
 ```
 [image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
-![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
+![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)  
+这里是[image]
 
 * 项目1
 * 项目2
