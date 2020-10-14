@@ -2,14 +2,11 @@
 
 ## subtitle
 
-*test*
-
+*test*  
 _test_  
-**test**
-__test__
-
-***test***
-
+**test**  
+__test__  
+***test***  
 ___test___
 
 `<hello world>`
