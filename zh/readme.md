@@ -4,9 +4,9 @@
 
 ### 3rd title
 
-*context*
-**context _line_**
-~~context~~
+*context*  
+**context _line_**  
+~~context~~  
 
 ![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
 
