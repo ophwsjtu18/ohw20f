@@ -15,12 +15,17 @@
 |Jack|male|21|
 
 ___
+
 [Bilibili](https://www.bilibili.com)   
+
 `print()`
+
 ```
 print()
 ```   
+
 ~~2333~~   
+
 Test\  
 
 :smile:
