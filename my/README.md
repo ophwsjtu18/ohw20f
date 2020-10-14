@@ -1,31 +1,31 @@
 # Hello!
 ## *Markdown Cheatsheet*
-![](https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG)
+![](https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG)   
 
-> Test
+> Test  
 
-- Test
+- Test  
 
-1. Test     
-  1.1 Test
-2. Test
+1. Test       
+  1.1 Test  
+2. Test  
 
 |name|gender|age|
 |----|------|---|
-|Jack|male|21|
+|Jack|male|21|  
 
-___
+___  
 
-[Bilibili](https://www.bilibili.com)   
+[Bilibili](https://www.bilibili.com)     
 
-`print()`
+`print()`  
 
 ```
 print()
-```   
+```     
 
-~~2333~~   
+~~2333~~     
 
-Test\  
+Test\    
 
-:smile:
+:smile:  
