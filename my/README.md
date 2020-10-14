@@ -22,8 +22,8 @@ print()
 ```   
 ~~2333~~   
 Test\
-[x]Finished
-[]Unfinished
-[]\Optional
-@Jack
+-[x]Finished   
+-[]Unfinished   
+-[]\Optional   
+@Jack   
 :smile:
