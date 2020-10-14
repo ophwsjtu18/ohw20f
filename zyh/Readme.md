@@ -2,24 +2,22 @@
 
 ## subtitle
 
-*test*
-
+*test*  
 _test_  
-**test**
-__test__
-
-***test***
-
+**test**  
+__test__  
+***test***  
 ___test___
 
 `<hello world>`
 
-```
+```python
 @Override
 protected void onDestroy(){
     EventBus.getDefault().unregister(this);
     super.onDestroy();
 }
+print("hello world")
 ```
 [image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
@@ -29,3 +27,6 @@ protected void onDestroy(){
 * 项目2
 
 ~~Just for testing.~~
+
+> 鲁迅说过  
+> zyh说过

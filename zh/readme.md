@@ -8,7 +8,10 @@
 **context _line_**  
 ~~context~~  
 
-![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
-
+![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)  
 [image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
 
+```python  
+#-*-coing:utf-8-*-  
+print("Hello World")  
+```  
