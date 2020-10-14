@@ -22,7 +22,7 @@ print("hello world")
 ```
 [image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true "名称"
 这里是[image]  
-![image]: https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true 
+![image]:(https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG?raw=true)
 
 
 * 项目1
