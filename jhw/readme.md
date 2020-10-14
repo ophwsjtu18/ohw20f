@@ -9,7 +9,8 @@ Hello i am jhw
 **bold**
 
 ![https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG]
-|Is sg|Name|Judge|
-|-----|-----|-----|
-||wdk|yes|
-||zmy|yes|
+|Name|Judge Is sg|
+|-----|-----|
+|wdk|yes|
+|zmy|yes|
+|wlj|yes|
