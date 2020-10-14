@@ -1,4 +1,4 @@
-###Read Me
+### Read Me
 # Markdown 基本语法
 ![markdown cheat sheet](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
 |first header|second header|third header|
@@ -10,9 +10,5 @@
 
 The image href：[image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
 
-'''
-
-  def my function():
+'''def my function():
     print("hello world")
-    
-    '''
