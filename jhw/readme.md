@@ -5,4 +5,12 @@ Hello i am jhw
 #### H4
 ##### H5
 ###### H6
-* SGWDK *
+*SGWDK*
+**bold**
+
+![https://raw.githubusercontent.com/shiep18/EIS2020/master/markdowncheatsheet.JPG]
+|Name|Judge Is sg|
+|-----|-----|
+|wdk|yes|
+|zmy|yes|
+|wlj|yes|
