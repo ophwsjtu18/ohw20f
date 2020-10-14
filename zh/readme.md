@@ -10,4 +10,4 @@
 
 ~~context~~
 
-![image](http://example.com/image/path.png)
+![image](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
