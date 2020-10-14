@@ -5,3 +5,12 @@ hello i am a fool.
 ### guideBookForMarkdown ###
 
 ![So hard](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
+
+1. 一级列表
+    1. 二级列表
+    2. 二级列表
+
+而如果直接改掉这个序列，变成1.1则需要在这一行最后打两个空格__，这样就能保证列表的缩进一致了。
+1. 一级列表__
+    1.1 二级列表__
+    1.2 二级列表__
