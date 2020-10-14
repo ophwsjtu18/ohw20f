@@ -10,4 +10,4 @@
 
 ~~context~~
 
-![](http://example.com/imge/path.png)
+![](http://example.com/image/path.png)
