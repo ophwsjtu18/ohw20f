@@ -14,3 +14,7 @@ Hello world!
 >if
 
 >rain
+
+"YES OR NO"
+
+""RIGHT""
