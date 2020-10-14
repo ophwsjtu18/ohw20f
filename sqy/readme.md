@@ -1,5 +1,7 @@
-# Here's the photo.
+# Markdown cheatsheet
 ![alt text](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
+
+# table
 | 球队 | 积分 | 排名 |
 | --- | --- | --- |
 | 阿森纳 |  9 |  4 |
