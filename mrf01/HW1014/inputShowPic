@@ -1,7 +1,7 @@
 import numpy as np
-import cv2
+import cv2 as cv
 
-img = cv2.imread('image.jpg', cv2.IMREAD_COLOR)
-cv2.imshow('image', img)
-cv2.waitKey(0)
-cv2.destroyAllWindows()
+img = cv.imread('image.jpg', cv2.IMREAD_COLOR)
+cv.imshow('image', img)
+cv.waitKey(0)
+cv.destroyAllWindows()
