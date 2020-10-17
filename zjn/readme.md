@@ -11,3 +11,7 @@ hello
 |2|3|
 
 hi
+
+homework1  picture
+
+![aa](C:\Users\HP\AppData\Local\Programs\Python\Python37\leiyi.jpg)
