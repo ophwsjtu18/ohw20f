@@ -12,6 +12,10 @@ hello
 
 hi
 
-homework1  picture
-
-![aa](C:\Users\HP\AppData\Local\Programs\Python\Python37\leiyi.jpg)
+homework1  
+~~~
+import numpy as np
+import cv2
+image=cv2.imread('leiyi.jpg')
+cv2.imshow('image',image)
+~~~
