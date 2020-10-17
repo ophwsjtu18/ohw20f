@@ -9,8 +9,9 @@
 |3|ho|
 
 你好
-#20201017 第一次作业
-#代码：
+#20201017 
+第一次作业代码：
+~~~
 # -*- coding: utf-8 -*-
 """
 Created on Sat Oct 17 18:49:00 2020
@@ -22,5 +23,6 @@ import cv2
 img = cv2.imread('IMG_1240.JPG',cv2.IMREAD_COLOR)
 cv2.imshow('picture',img)
 cv2.waitKey(0)
+~~~
 
 #图片：
