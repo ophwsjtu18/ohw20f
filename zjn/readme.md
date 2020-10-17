@@ -20,3 +20,5 @@ image=cv2.imread('leiyi.jpg')
 cv2.imshow('image',image)
 ~~~
 ![雷伊](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/leiyi.jpg?raw=true)
+
+111@@aa
