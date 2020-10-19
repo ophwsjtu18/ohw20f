@@ -13,3 +13,9 @@
 | --- | --- | --- |
 | 张三 | 10000 | 4 |
 | 李四 | 20000 | 4 |
+
+
+
+
+# homework1
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/timg.jpg)
