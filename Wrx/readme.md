@@ -1,9 +1,9 @@
-# Hello, world!
-
+## Hello, world!
+# 图片展示
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/loveLetter.jpg)
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/aWinterStory.webp)
-
-This is a chart.
+# 表格制作
+齿轮参数计算
 |      | small gear    |  big gear        |
 |---------|------|-----------------:|
 |Da:齿顶圆直径(mm)       |  31.667  | 51.667      |
