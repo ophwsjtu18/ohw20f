@@ -1,8 +1,8 @@
-## Hello, world!
-# 图片展示
+# Hello, world!
+## 图片展示
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/loveLetter.jpg)
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/aWinterStory.webp)
-# 表格制作
+## 表格制作
 齿轮参数计算
 |      | small gear    |  big gear        |
 |---------|------|-----------------:|
