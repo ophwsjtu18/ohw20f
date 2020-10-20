@@ -1,6 +1,7 @@
 # Hello, world!
 
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/loveLetter.jpg)
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/aWinterStory.webp)
 
 This is a chart.
 | table   | y    |   gear        |
