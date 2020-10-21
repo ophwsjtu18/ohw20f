@@ -20,4 +20,4 @@ Hello world!
 
 1.jpg
 
-![](D:\1.jpg)
+![](D:\\1.jpg)
