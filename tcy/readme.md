@@ -20,4 +20,5 @@ Hello world!
 
 1.jpg
 
-![](/1.jpg)
+![](https://github.com/ophwsjtu18/ohw20f/blob/main/tcy/1.jpg)
+
