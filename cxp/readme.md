@@ -12,4 +12,4 @@ I am chenxiaopeng
 |王五|10000|4|
 
 # 20201014作业
-![homework](https://github.com/ophwsjtu18/ohw20f/blob/main/cxp/homework/pikachu.jpg)
+![homework](https://github.com/ophwsjtu18/ohw20f/blob/main/cxp/homework/week_6/pikachu.jpg)
