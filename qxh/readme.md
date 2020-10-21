@@ -1,3 +1,3 @@
 # homework
-![Alt Text](http://example.com/image/path.png)
+![Alt Text](https://github.com/ophwsjtu18/ohw20f/blob/main/qxh/markdowncheatsheet.jpg)
 

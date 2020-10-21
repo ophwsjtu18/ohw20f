@@ -1,4 +1,4 @@
-# Hello World!
+# Hello
 
 I am Huiming Qiu.
 
@@ -10,3 +10,8 @@ I am Huiming Qiu.
 |---|---|
 |XXX|AAA|
 |YYY|BBB|
+
+我喜欢
+
+- Java
+- JavaScript

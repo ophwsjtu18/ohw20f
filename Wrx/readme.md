@@ -1,13 +1,15 @@
-# Hello
-## Hello world
-
-![alt_text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "这是图片标题")
-
-![alt_text](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
-
-| table   | y    |   gear        |
+# Hello, world!
+## 图片展示
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/loveLetter.jpg)
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/aWinterStory.webp)
+## 表格制作
+齿轮参数计算
+|      | small gear    |  big gear        |
 |---------|------|-----------------:|
-|A1       |  A2  | A3      |
-| B1    | B2|B3
+|Da:齿顶圆直径(mm)       |  31.667  | 51.667      |
+|D:分度圆直径(mm)   | 30.000|50.000|
+|Db:基圆直径(mm)|28.191|46.985|
+|Df:齿根圆直径(mm)|27.917|47.917|
+|圆角参数|0.250|0.250
 
-`light`
+

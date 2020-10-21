@@ -1,1 +1,5 @@
-![a picture](Sketchpad.png)
+This is myHouse!
+
+![](1.png)
+![](2.png)
+![](3.png)
