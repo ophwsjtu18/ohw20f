@@ -127,7 +127,7 @@ class house():
         self.addlanterns()
         self.addrailway(500)
 
-
+![mc.photo](https://github.com/ophwsjtu18/ohw20f/blob/139bea3e631bf83a70777c2a593fef717f02dca3/dml/mc_20201026213012.png)
 
 
 
