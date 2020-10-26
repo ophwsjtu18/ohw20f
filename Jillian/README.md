@@ -2,6 +2,11 @@
 |------|------|
 |申屠佳颖|518021910874|
 
+Week7homework
+![image](https://github.com/ophwsjtu18/ohw20f/blob/main/Jillian/week7/正面.png)
+
+
+Week6homework
 ![image](https://github.com/ophwsjtu18/ohw20f/blob/main/Jillian/jojo.jpg)
 
 
