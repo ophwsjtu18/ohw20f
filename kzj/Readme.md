@@ -1,3 +1,3 @@
 Hello,I am Sinogi.
 
-![](https://github.com/shiep18/EIS2020/blob/master/markdowncheatsheet.JPG)
+![](https://raw.githubusercontent.com/ophwsjtu18/ohw20f/main/kzj/HM2/ywwuyi.png)
