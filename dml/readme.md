@@ -128,7 +128,9 @@ class house():
         self.addrailway(500)
 
 ![mc.photo](https://github.com/ophwsjtu18/ohw20f/blob/139bea3e631bf83a70777c2a593fef717f02dca3/dml/mc_20201026213012.png)
-！[mc1](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/mc3.png)
+![mc1](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/mc3.png)
+![mc2](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/mc2_20201028223615.png)
+
 
 
 
