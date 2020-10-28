@@ -1,0 +1,57 @@
+import mcpi.block as block
+from mcpi.minecraft import Minecraft
+import time
+mc = Minecraft.create()
+
+class House():
+    def __init__(self, x, y, z):
+        self.x = x
+        self.y = y
+        self.z = z
+        print("Build a house at", self.x, self.y, self.z)
+
+    def setLWH(self, l, w, h):
+        if(l < 4):
+            l = 4
+        if(w < 4):
+            w = 4
+        if(h < 4):
+            h = 4
+        self.l = l
+        self.w = w
+        self.h = h
+
+    def __build_wall(self):
+        print("Build walls")
+        mc.setBlocks(self.x, self.y, self.z, self.x + self.l - 1, self.y + self.h - 1, self.z + self.w - 1, block.BRICK_BLOCK.id)
+        mc.setBlocks(self.x + 1, self.y + 1, self.z + 1, self.x + self.l - 2, self.y + self.h - 2, self.z + self.w - 2, block.AIR.id)
+
+    def __build_door(self):
+        print("Build door")
+        mc.setBlocks(self.x + 1, self.y + 1, self.z, self.x + 1, self.y + 2, self.z, block.AIR.id)
+
+    def __build_window(self):
+        print("Build windows")
+        mc.setBlocks(self.x + self.l - 1, self.y + 2, self.z + 2, self.x + self.l - 1, self.y + 2, self.z + 2, block.GLASS.id)
+        mc.setBlocks(self.x + 2, self.y + 2, self.z + self.w - 1, self.x + 2, self.y + 2, self.z + self.w - 1, block.GLASS.id)
+
+    def __build_roof(self):
+        print("Build roof")
+        mc.setBlocks(self.x - 1, self.y + self.h, self.z - 1, self.x + self.l, self.y + self.h, self.z + self.w, block.STONE_SLAB.id)
+        mc.setBlocks(self.x, self.y + self.h, self.z, self.x + self.l - 1, self.y + self.h, self.z + self.w - 1, block.STONE_BRICK.id)
+
+    def build_all(self):
+        self.__build_wall()
+        self.__build_door()
+        self.__build_window()
+        self.__build_roof()
+
+house1 = House(40, 2, -50)
+house1.setLWH(6, 6, 5)
+
+house1.build_all()
+
+while True:
+    time.sleep(2.0)
+    pos=mc.player.getTilePos()
+    mc.postToChat("x:"+str(pos.x)+" y:"+str(pos.y)+" z:"+str(pos.z)) 

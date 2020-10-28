@@ -1,0 +1,66 @@
+from mcpi.minecraft import Minecraft
+import mcpi.block as block
+mc=Minecraft.create()
+
+class House():
+     def __init__(self,x,y,z):
+         self.x=x #x--wide
+         self.y=y #y--height
+         self.z=z #z--length
+
+     def getLWH(self,l,w,h):
+         self.l=l
+         self.w=w
+         self.h=h
+     def __buildfoudation(self):
+         for x in range(-3,self.w+2):
+             for z in range(-3,self.l+2):
+                 mc.setBlock(self.x+x,self.y-1,self.z+z,169)
+
+     def __buildfloor(self):
+         for x in range(self.w):
+           for z in range(self.l):
+             mc.setBlock(self.x+x,self.y,self.z+z,43,4)
+             mc.setBlock(self.x+x,self.y+1,self.z+z,171,6)#放羊毛地毯
+     def __buildwall(self):
+         for x in range(self.w):
+           for y in range(self.h):
+               mc.setBlock(self.x+x,self.y+y,self.z,43,4)
+               mc.setBlock(self.x+x,self.y+y,self.z+self.l-1,43,4)
+         for z in range(1,self.l):
+             for y in range(self.h):
+                 mc.setBlock(self.x,self.y+y,self.z+z,43,4)
+                 mc.setBlock(self.x+self.w-1,self.y+y,self.z+z,43,4)
+     def __builddoor(self):
+         for y in range(1,4):
+             mc.setBlock(self.x,self.y+y,self.z+self.l/2-1,0)
+             mc.setBlock(self.x,self.y+y,self.z+self.l/2,0)
+
+         mc.setBlock(self.x-1,self.y,self.z+self.l/2-1,156)
+         mc.setBlock(self.x-1,self.y,self.z+self.l/2,156)
+     def __buildroof(self):
+         for x in range(1,self.w-1):
+             for z in range(1,self.l-1):
+               mc.setBlock(self.x+x,self.y+self.h,self.z+z,95,15)
+     def __buildwindow(self):
+         for y in range(3):
+             for z in range(2):
+                 mc.setBlock(self.x,self.y+y+2,self.z+self.l/8+z-2,102)
+                 mc.setBlock(self.x,self.y+y+2,self.z+self.l*3/8+z-2,102)
+                 mc.setBlock(self.x,self.y+y+2,self.z+self.l*5/8+z,102)
+                 mc.setBlock(self.x,self.y+y+2,self.z+self.l*7/8+z,102)
+                 mc.setBlock(self.x+self.w-1,self.y+y+2,self.z+self.l/8+z-2,102)
+                 mc.setBlock(self.x+self.w-1,self.y+y+2,self.z+self.l*3/8+z-2,102)
+                 mc.setBlock(self.x+self.w-1,self.y+y+2,self.z+self.l*5/8+z,102)
+                 mc.setBlock(self.x+self.w-1,self.y+y+2,self.z+self.l*7/8+z,102)
+     def buildout(self):
+         self.__buildfloor()
+         self.__buildwall()
+         self.__builddoor()
+         self.__buildfoudation()
+         self.__buildroof()
+         self.__buildwindow()
+#mc.player.setTilePos([2500,50,2500])
+house1=House(2500,50,2500)
+house1.getLWH(24,12,10)
+house1.buildout()

@@ -4,3 +4,6 @@
   
 #Assignment_1_Picture
 ![](https://github.com/ophwsjtu18/ohw20f/blob/main/my/assignment/assignment_1_TestPicture.JPG)  
+
+#Assignment_2_Picture
+![](https://github.com/ophwsjtu18/ohw20f/blob/main/my/assignment/assignment_2.png)
