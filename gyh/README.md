@@ -11,3 +11,6 @@
 
 ##10.21
 ![graph](https://raw.githubusercontent.com/ophwsjtu18/ohw20f/main/gyh/hw10_21/1.jpg)
+
+##10.28
+![graph](https://raw.githubusercontent.com/ophwsjtu18/ohw20f/main/gyh/hw10_28/1.jpg)
