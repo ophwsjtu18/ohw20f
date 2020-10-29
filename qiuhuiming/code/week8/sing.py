@@ -15,14 +15,6 @@ while True:
     songs.append(line_data)
     songs_menu[line_data[0]] = line_data[1:]
 
-# tinkle_star = ["1", "1", "5", "5", "6", "6",
-#                "5", "4", "4", "3", "3", "2", "2", "1"]
-# two_tigers = ['1', '2', '3', '1', '1', '2', '3', '1', '3', '4', '5']
-
-# song_menu = {}
-# song_menu['tinkle_star'] = tinkle_star
-# song_menu['two_tigers'] = two_tigers
-
 
 print('Which song do you like? Enter the number:')
 for i in range(len(songs)):
