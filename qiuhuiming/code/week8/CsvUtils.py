@@ -9,18 +9,18 @@ def read_house_csv(file_name):
     print(first_line)
     house_name = first_line[0]
     song_name = first_line[1]
-    house_flour = []
+    house_floor = []
     index = 0
     while True:
         line = file.readline()
         if line == '':
             break
-        house_flour.append(line.strip().split(','))
-        if index > 0 and len(house_flour[index]) != len(house_flour[index - 1]):
+        house_floor.append(line.strip().split(','))
+        if index > 0 and len(house_floor[index]) != len(house_floor[index - 1]):
             raise Exception('Error: invalid config at csv file.')
         index = index + 1
 
-    return house_name, song_name, house_flour
+    return house_name, song_name, house_floor
 
 
 def read_songs_csv(file_name):

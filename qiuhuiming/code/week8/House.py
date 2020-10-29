@@ -18,6 +18,7 @@ class House():
 
     name = 'Awesome House'  # 默认名字
     song = ['1', '2', '3', '2', '2']  # 默认歌曲名
+    floor = None  # 地板花纹
 
     def __init__(self):
         print('The house position is not set yet!')
@@ -37,6 +38,11 @@ class House():
 
     def set_song(self, song):
         self.song = song
+
+    def set_floor(self, floor):
+        self.floor = floor
+        self.length = len(floor)
+        self.width = len(floor[0])
 
     def print_position(self):
         mc.postToChat('Your house at (x: {}, y: {}, z: {})'.format(
@@ -64,8 +70,15 @@ class House():
 
     def __build_floor(self):
         print('I will build the floor')
-        mc.setBlocks(self.x, self.y, self.z, self.x + self.length - 1,
-                     self.y, self.z + self.width - 1, block.STONE.id)
+        if self.floor is None:
+            mc.setBlocks(self.x, self.y, self.z, self.x + self.length - 1,
+                         self.y, self.z + self.width - 1, block.WOOD.id)
+        else:
+            for x in range(self.length):
+                for z in range(self.width):
+                    # print(x, z)
+                    id = block.GOLD_BLOCK.id if self.floor[x][z] == '1' else block.WOOD.id
+                    mc.setBlock(x + self.x, self.y, z + self.z, id)
 
     def __build_door(self):
         print('I will build the door')
@@ -101,30 +114,13 @@ class House():
 
     def sing(self):
         ser = serial.Serial("COM3")
-        for i in self.song:
-            ser.write((i + '$').encode())
-            time.sleep(0.5)
+        while True:
+            for i in self.song:
+                ser.write((i + '$').encode())
+                time.sleep(0.5)
 
     def is_comtain_tile(self, pos):
         return self.x <= pos.x < self.x + self.length and self.y <= pos.y < self.y + self.height and self.z <= pos.z < self.z + self.width
 
     def is_complete(self) -> bool:
         return self.x != None and self.y != None and self.z != None and self.width != None and self.height != None and self.length != None
-
-
-if __name__ == "__main__":
-    house = House()
-    pos = mc.player.getTilePos()
-    house.set_position(pos.x + 5, pos.y, pos.z + 5)
-    house.set_size(30, 20, 20)
-    house.build()
-
-    while True:
-        pos = mc.player.getTilePos()
-        house.print_position()
-        mc.postToChat('Your position: x: {}, y: {}, z: {}'.format(
-            pos.x, pos.y, pos.z))
-        if house.is_comtain_tile(pos):
-            mc.postToChat('Welcome home!')
-            break
-        time.sleep(2)
