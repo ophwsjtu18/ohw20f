@@ -103,6 +103,7 @@ class House():
         if not self.is_complete():
             print('Some parameters are not set yet!')
             return
+        print('Start to build {}'.format(self.name))
         mc.postToChat('Start to build {}'.format(self.name))
         self.__build_floor()
         self.__build_wall()
@@ -111,10 +112,12 @@ class House():
         self.__build_window()
         self.__decorate()
         mc.postToChat('Build successfully!')
+        print('Build successfully!')
 
     def sing(self):
         ser = serial.Serial("COM3")
         while True:
+            print('{} will sing: {}'.format(self.name, self.song))
             for i in self.song:
                 ser.write((i + '$').encode())
                 time.sleep(0.5)
