@@ -37,17 +37,18 @@ class House(object):
     def creat_wall_and_floor(self):
         l_ceil = math.ceil(self.length / 2)
         w_ceil = math.ceil(self.width / 2)
+        build_id = 5
         for i in range(-(self.length//2), l_ceil):
             for j in range(-(self.width // 2), w_ceil):
-                mc.setBlock(pos.x + i, pos.y, pos.z + j, bulid_id)
+                mc.setBlock(pos.x + i, pos.y, pos.z + j, build_id)
 
         for i in range(self.height):
             for j in range(-(self.width//2), w_ceil):
-                mc.setBlock(pos.x - (self.length//2), pos.y + i, pos.z + j, bulid_id)
-                mc.setBlock(pos.x + l_ceil - 1, pos.y + i, pos.z + j, bulid_id)
+                mc.setBlock(pos.x - (self.length//2), pos.y + i, pos.z + j, build_id)
+                mc.setBlock(pos.x + l_ceil - 1, pos.y + i, pos.z + j, build_id)
             for k in range(-(self.length//2), l_ceil):
-                mc.setBlock(pos.x + k, pos.y + i, pos.z - (self.width//2), bulid_id)
-                mc.setBlock(pos.x + k, pos.y + i, pos.z + w_ceil - 1, bulid_id)
+                mc.setBlock(pos.x + k, pos.y + i, pos.z - (self.width//2), build_id)
+                mc.setBlock(pos.x + k, pos.y + i, pos.z + w_ceil - 1, build_id)
 
 
         # roof
