@@ -8,7 +8,7 @@ class House:
         self.z=z
         mc.postToChat("A house will be build at"+"x="+str(self.x)+" y="+str(self.y)+" z="+str(self.z))
         self.__setName__()
-        self.__setSong__()
+        self.__setSong__()  # adding song and name
     def setLWH(self,l,w,h):
         self.l=l
         self.w=w
@@ -58,7 +58,8 @@ class House:
         for x in range(self.l+1):
             for z in range(self.w+1):
                 mc.setBlock(self.x+x,self.y+self.h,self.z+z,2)
-
+	
+	# doing floor decoration
     def decorate_floor(self):
         f = open("tile.csv","r")
         for z in range(5):
