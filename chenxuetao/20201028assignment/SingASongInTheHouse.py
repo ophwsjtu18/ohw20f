@@ -57,7 +57,7 @@ class House:
             time.sleep(1)
 
     def detect_pos(self,currx,curry,currz):
-        if(self.posx-10<=currx<=self.posx+10 and self.posz-10<=currz<=self.posz+10):
+        if self.posx-10<=currx<=self.posx+10 and self.posz-10<=currz<=self.posz+10:
             self.set_name("a simple house")
             self.song()
             
