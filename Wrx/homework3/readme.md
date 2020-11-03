@@ -4,4 +4,5 @@
 2.用csv文件定义地板花纹，0表示木头，1表示黄金。
 3.在你的readme中显示地板花纹效果
 ## 作业展示
-![]()
+![picture](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/homework3/%E5%9C%B0%E6%9D%BF.png)
+![picture](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/homework3/%E5%9C%B0%E6%9D%BF.png)
