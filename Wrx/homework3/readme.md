@@ -5,4 +5,4 @@
 3.在你的readme中显示地板花纹效果
 ## 作业展示
 ![picture](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/homework3/%E5%9C%B0%E6%9D%BF.png)
-![picture](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/homework3/%E5%9C%B0%E6%9D%BF.png)
+![picture](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/homework3/外景.png)
