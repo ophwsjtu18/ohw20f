@@ -1,0 +1,48 @@
+import mcpi.minecraft as minecraft
+mc=minecraft.Minecraft.create()
+pos=mc.player.getTilePos()
+f=open("house1.csv","r")
+class house():
+        def __init__(self,x,y,z):
+            self.x=x
+            self.y=y
+            self.z=z
+            print("hello world. I will build the house at",self.x,self.y,self.z)
+        def setLWH(self,l,w,h):
+            self.l=l
+            self.w=w
+            self.h=h
+        def quickbuild(self):
+            h=0
+            x=0
+            while True:
+               line=f.readline()
+               if line =="":
+                   break
+               linedata=line.strip().split(",")
+               if linedata[0]=="-1":
+                   h=h+1
+                   x=0
+                   continue
+               for z in range(len(linedata)):
+                   mc.setBlock(self.x+1+x,self.y+h,self.z+1+z,int(linedata[z]))
+               x=x+1
+        def buildwall():
+            print("I will try to update it, but it needs time.please go to my last class house")
+        def buildroof():
+            print("I will try to update it, but it needs time.please go to my last class house")
+        def houseid(self):
+            self.owner=input("tell me the owner:")
+            self.music=[]
+            musicfell=input("tell me where is the music:")
+            h=open(musicfell,"r")
+            while True:
+              musicline=h.readline()
+              if musicline =="":
+                 break
+              musiclinedata=musicline.strip().split(",")
+              musicsongs.append(linedata)
+
+
+house1=house(pos.x,pos.y,pos.z)
+house1.quickbuild()

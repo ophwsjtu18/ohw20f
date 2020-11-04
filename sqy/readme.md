@@ -8,3 +8,6 @@
 
 # homework2
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW2/homework2.png)
+
+# homework3
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW3/homework3.png)

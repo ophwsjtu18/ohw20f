@@ -28,3 +28,10 @@ homework2
 ![night](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework2_2.png)
 
 ![night](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework2_3.png)
+ 
+homework3
+
+![name](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework3_1.png)
+
+![name](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework3_2.png)
+
