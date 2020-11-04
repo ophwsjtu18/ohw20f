@@ -69,6 +69,8 @@ class GopherGame:
     def __flashScreen(self):
         self.backgroundImageShown = self.backgroundImage.copy()
         self.__drawGophers()
+        cv2.putText(self.backgroundImageShown, str(self.score),
+                    (550, 250), cv2.FONT_HERSHEY_COMPLEX, 6, (0, 0, 255), 10)
         cv2.imshow('gophers', self.backgroundImageShown)
         print('The score is: {}'.format(self.score))
 
