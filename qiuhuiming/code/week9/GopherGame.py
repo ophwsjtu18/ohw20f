@@ -4,8 +4,9 @@ import random
 
 
 def beatGopher(event, x, y, flags, param):
-    if event == cv2.EVENT_LBUTTONDBLCLK:
-        print('Mouse click double')
+    if event == cv2.EVENT_LBUTTONDOWN:
+        print('Mouse down')
+        param.beatGopher(x, y)
 
 
 class GopherGame:
@@ -20,6 +21,8 @@ class GopherGame:
 
     windowName = 'gophers'
 
+    score = 0
+
     def __init__(self):
         # print(self.grid)
         print('Build game object!')
@@ -32,7 +35,8 @@ class GopherGame:
             self.__generateRandomGophers()
             self.__drawGophers()
             cv2.imshow('gophers', self.backgroundImageShown)
-
+            print('The score is: {}'.format(self.score))
+            
             if cv2.waitKey(1000) & 0xFF == ord('q'):
                 break
 
@@ -62,3 +66,13 @@ class GopherGame:
                     x2 = x1 + 180
                     y2 = y1 + 150
                     self.backgroundImageShown[y1:y2, x1:x2] = self.gopherImage
+
+    def beatGopher(self, x, y):
+        if 0 <= x <= 540 and 0 <= y <= 450:
+            i = int(y/150)
+            j = int(x/180)
+            if self.grid[i][j]:
+                self.grid[i][j] = False
+                self.score = self.score + 1
+                print('Go it!')
+
