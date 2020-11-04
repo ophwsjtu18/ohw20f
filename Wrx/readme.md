@@ -12,4 +12,4 @@
 |Df:齿根圆直径(mm)|27.917|47.917|
 |圆角参数|0.250|0.250
 ## 第二次作业
-![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/Wrx/BuildMyhouse.jpg)
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/mrf01/HW1028/floor.png)
