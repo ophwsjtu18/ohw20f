@@ -1,1 +1,1 @@
- ![the floor](the floor.png)
+ ![the floor](/the floor.png)
