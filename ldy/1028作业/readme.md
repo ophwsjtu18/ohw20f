@@ -1,1 +1,1 @@
-!(the floor.png)
+![](the_floor.png)
