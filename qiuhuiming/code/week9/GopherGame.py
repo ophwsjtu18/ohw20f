@@ -13,6 +13,7 @@ class GopherGame:
     height = 600
 
     backgroundImage = 100 * np.ones((height, width, 3), dtype=np.uint8)
+    backgroundImageShown = backgroundImage.copy()
     gopherImage = cv2.imread('./gopher.png')[0:150, 70: 250]
 
     grid = [[True for i in range(3)] for j in range(3)]
@@ -23,36 +24,36 @@ class GopherGame:
         # print(self.grid)
         print('Build game object!')
 
+    def start(self):
+        self.__initGame()
+
+        while True:
+            self.backgroundImageShown = self.backgroundImage.copy()
+            self.__generateRandomGophers()
+            self.__drawGophers()
+            cv2.imshow('gophers', self.backgroundImageShown)
+
+            if cv2.waitKey(1000) & 0xFF == ord('q'):
+                break
+
+        cv2.destroyAllWindows()
+
     def setGopherImage(self, newImage):
         self.gopherImage = newImage
 
     def setBackgroundImage(self, newImage):
         self.backgroundImage = newImage
 
-    def start(self):
-        self.__initGame()
-
-        while True:
-            backgroundImageShown = self.backgroundImage.copy()
-            self.__generateRandomGophers()
-            self.__drawGophers(backgroundImageShown)
-            cv2.imshow('gophers', backgroundImageShown)
-
-            if cv2.waitKey(1000) & 0xFF == ord('q'):
-                break
-            
-        cv2.destroyAllWindows()
-
     def __initGame(self):
         cv2.namedWindow(self.windowName)
-        cv2.setMouseCallback(self.windowName, beatGopher)
+        cv2.setMouseCallback(self.windowName, beatGopher, self)
 
     def __generateRandomGophers(self):
         for i in range(3):
             for j in range(3):
                 self.grid[i][j] = random.randint(0, 10) > 5
 
-    def __drawGophers(self, backgroundImageShown):
+    def __drawGophers(self):
         for i in range(3):
             for j in range(3):
                 if self.grid[i][j]:
@@ -60,4 +61,4 @@ class GopherGame:
                     y1 = j*150
                     x2 = x1 + 180
                     y2 = y1 + 150
-                    backgroundImageShown[y1:y2, x1:x2] = self.gopherImage
+                    self.backgroundImageShown[y1:y2, x1:x2] = self.gopherImage
