@@ -23,6 +23,8 @@ class GopherGame:
 
     score = 0
 
+    sleepTime = 1000
+
     def __init__(self):
         # print(self.grid)
         print('Build game object!')
@@ -31,13 +33,10 @@ class GopherGame:
         self.__initGame()
 
         while True:
-            self.backgroundImageShown = self.backgroundImage.copy()
             self.__generateRandomGophers()
-            self.__drawGophers()
-            cv2.imshow('gophers', self.backgroundImageShown)
-            print('The score is: {}'.format(self.score))
-            
-            if cv2.waitKey(1000) & 0xFF == ord('q'):
+            self.__flashScreen()
+
+            if cv2.waitKey(self.sleepTime) & 0xFF == ord('q'):
                 break
 
         cv2.destroyAllWindows()
@@ -61,11 +60,17 @@ class GopherGame:
         for i in range(3):
             for j in range(3):
                 if self.grid[i][j]:
-                    x1 = i*180
-                    y1 = j*150
+                    x1 = j*180
+                    y1 = i*150
                     x2 = x1 + 180
                     y2 = y1 + 150
                     self.backgroundImageShown[y1:y2, x1:x2] = self.gopherImage
+
+    def __flashScreen(self):
+        self.backgroundImageShown = self.backgroundImage.copy()
+        self.__drawGophers()
+        cv2.imshow('gophers', self.backgroundImageShown)
+        print('The score is: {}'.format(self.score))
 
     def beatGopher(self, x, y):
         if 0 <= x <= 540 and 0 <= y <= 450:
@@ -75,4 +80,4 @@ class GopherGame:
                 self.grid[i][j] = False
                 self.score = self.score + 1
                 print('Go it!')
-
+                self.__flashScreen()
