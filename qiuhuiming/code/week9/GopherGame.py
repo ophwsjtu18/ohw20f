@@ -3,6 +3,11 @@ import numpy as np
 import random
 
 
+def beatGopher(event, x, y, flags, param):
+    if event == cv2.EVENT_LBUTTONDBLCLK:
+        print('Mouse click double')
+
+
 class GopherGame:
     width = 800
     height = 600
@@ -25,6 +30,8 @@ class GopherGame:
         self.backgroundImage = newImage
 
     def start(self):
+        self.__initGame()
+
         while True:
             backgroundImageShown = self.backgroundImage.copy()
             self.__generateRandomGophers()
@@ -33,6 +40,12 @@ class GopherGame:
 
             if cv2.waitKey(1000) & 0xFF == ord('q'):
                 break
+            
+        cv2.destroyAllWindows()
+
+    def __initGame(self):
+        cv2.namedWindow(self.windowName)
+        cv2.setMouseCallback(self.windowName, beatGopher)
 
     def __generateRandomGophers(self):
         for i in range(3):
