@@ -7,6 +7,6 @@
 ![作业3_Floor](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_3/floor.png?raw=true "Floor")
 * [作业3_newHouse](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_3/newHouse.png?raw=true)  
 ![作业3_newHouse](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_3/newHouse.png?raw=true "newHouse")  
-![作业3_Floor](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_4/MousePunch.png?raw=true "Mouse")
-* [作业3_newHouse](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_4/MousePunch.png?raw=true)
+* [作业4_newHouse](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_4/MousePunch.png?raw=true)  
+![作业4_Floor](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_4/MousePunch.png?raw=true "Mouse")
 
