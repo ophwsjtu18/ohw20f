@@ -17,8 +17,8 @@ class Whac_A_Mole:
         cv2.waitKey(500)
     def __clean(self):
         self.img[200*self.x:200*(self.x+1), 200*self.y:200*(self.y+1)] = bkg[200*self.x:200*(self.x+1), 200*self.y:200*(self.y+1)]
-        self.state = 0
         self.__img_show()
+        self.state = 0
     def __set_obj(self):
         self.x = random.randint(0, 2)
         self.y = random.randint(0, 2)
@@ -27,7 +27,7 @@ class Whac_A_Mole:
         self.__img_show()
     def __mouse_check(self,event,x,y,flags,param):
         if event == cv2.EVENT_LBUTTONDOWN and self.state == 1:
-            if 200*self.x <= x <= 200*(self.x+1) and 200*self.y <= y <= 200*(self.y+1):
+            if 200*self.x <= y <= 200*(self.x+1) and 200*self.y <= x <= 200*(self.y+1):
                 self.point += 1
     def run(self):
         self.__clean()
