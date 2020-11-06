@@ -41,12 +41,11 @@ class click_Testing:
         self.set_obj()
         print("分数:", self.point)
 
-
-game = click_Testing(bkg, lyy)
+player = click_Testing(bkg, lyy)
 
 
 while True :
-    game.run()
+    player.run()
     if cv2.waitKey(1) ==ord(' '):
         break
 
