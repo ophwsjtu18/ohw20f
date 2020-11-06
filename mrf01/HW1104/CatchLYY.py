@@ -2,7 +2,6 @@
 
 
 import cv2
-
 import random
 
 bkg = cv2.imread("./cd.jpg")
