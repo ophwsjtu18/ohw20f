@@ -50,5 +50,5 @@ while True :
         break
 
 cv2.destroyAllWindows()        
-print("游戏结束，您的分数为:"+str(game.point))
+print("游戏结束，您的分数为:"+str(player.point))
 
