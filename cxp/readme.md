@@ -19,3 +19,6 @@ I am chenxiaopeng
 
 # 20201028作业
 ![](https://github.com/ophwsjtu18/ohw20f/blob/main/cxp/homework/week_8/floor.png)
+
+# 20201104作业
+![](https://github.com/ophwsjtu18/ohw20f/blob/main/cxp/homework/week_9/da_di_shu.png)
