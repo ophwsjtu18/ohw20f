@@ -22,9 +22,6 @@ bg = np.zeros((600, 600, 3), np.uint8)
 cao_di = cv2.imread('cao_di.png', 1)
 di_shu = cv2.imread('di_shu.jpg', 1)
 
-# bg[0:600, 0:600] = cao_di
-# bg[200:400, 400:600] = di_shu
-
 cv2.setMouseCallback('da_di_shu', da)
 
 while True:
