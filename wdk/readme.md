@@ -24,4 +24,7 @@ hello i am wdk
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/2/3.png)  
 
 # assignment3
-![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/3/floor.png)
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/3/floor.png)  
+
+# assignment4
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/4/result.png)  
