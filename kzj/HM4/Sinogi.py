@@ -16,7 +16,7 @@ def Q_B(event,x,y,flag,param):
 			score+=1
 
 path=os.getcwd()
-img=cv2.imread(path+'\\team3\\QB.jpg')
+img=cv2.imread(path+'\\QB.jpg')
 cv2.namedWindow('QB')
 cv2.setMouseCallback('QB',Q_B)
 while(1):
