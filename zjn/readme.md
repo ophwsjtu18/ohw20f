@@ -37,5 +37,5 @@ homework3
 
 homework4
 
-![name](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework4/homework4.jpg)
+![name](https://github.com/ophwsjtu18/ohw20f/blob/main/zjn/homework4/homework4.JPG)
 
