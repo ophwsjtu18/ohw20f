@@ -11,3 +11,6 @@
 
 # homework3
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW3/homework3.png)
+
+# homework4
+![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW4/hw4.png)

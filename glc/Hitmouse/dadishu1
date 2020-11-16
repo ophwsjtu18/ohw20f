@@ -1,0 +1,28 @@
+import cv2
+import random
+import numpy as np
+print("helloworld")
+img=cv2.imread("house.png")
+imgold=img.copy()
+point=0
+def ifhit(event,x,y,flags,param):
+    global point,i,j
+    if event==cv2.EVENT_LBUTTONDBLCLK:
+         if 50*i<y<50*i+50 and 50*j<x<50+50*j:
+              point=point+100
+              print(point)
+cv2.namedWindow('image')
+cv2.setMouseCallback('image',ifhit)
+while True:
+    img=imgold.copy()
+    head=img[550:600,750:800].copy()
+    img[0:50,0:50]=head
+    i=random.randint(0,8)
+    j=random.randint(0,8)
+    img[i*50:(i+1)*50,j*50:50+j*50]=head
+
+    for c in range(3):
+       for d in range(3):    
+            cv2.rectangle(img,(50*c,50*d),(50*c+50,50*d+50),(0,255,0),3)
+    cv2.imshow("image",img)
+    cv2.waitKey(500)

@@ -16,3 +16,5 @@ My first table in Github
 ![MyHouse](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week7/QQ%E6%88%AA%E5%9B%BE20201025114511.jpg)
 
 ![floor](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week8/ABCDEFGHI.jpg)
+
+![hit](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week9/assignment.jpg)
