@@ -7,7 +7,7 @@
 
   <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E5%86%B0%E6%A0%BC_2.png?raw=true" height="330">
   
-  <img src=https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E6%8A%98%E5%8F%A0%E7%81%AF_1.png?raw=true height="330">
+  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E6%8A%98%E5%8F%A0%E7%81%AF_1.png?raw=true" height="330">
   
 
 </div>
