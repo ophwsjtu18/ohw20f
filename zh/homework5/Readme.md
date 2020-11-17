@@ -9,10 +9,10 @@
   
   <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E6%8A%98%E5%8F%A0%E7%81%AF_1.png?raw=true" height="400">
   
-  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E6%8A%98%E5%8F%A0%E7%81%AF_2.png?raw=true" height="400">
+  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E6%8A%98%E5%8F%A0%E7%81%AF_2.png?raw=true" height="330">
   
-  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E8%8A%82%E8%83%BD%E7%81%AF_1.png?raw=true" height="400">
+  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E8%8A%82%E8%83%BD%E7%81%AF_1.png?raw=true" height="330">
   
-  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E8%8A%82%E8%83%BD%E7%81%AF_2.png?raw=true" height="400">
+  <img src="https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework5/%E8%8A%82%E8%83%BD%E7%81%AF_2.png?raw=true" height="330">
 
 </div>
