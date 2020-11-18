@@ -24,9 +24,9 @@
 3.每个小组制作一个投石机底座，材质任选（3周以内完成）
 
 # 20201118作业
-1.学习python类的继承
-2.在我的世界里建造3x3个房屋，一行是House类普通房屋，一行是RoudHouse圆顶房屋继承自House类，其他代码重用父类的，只有buildRoof用自己的，一行是TriangleHouse尖顶房屋同理继承自House类  
+1.学习python类的继承  
+2.在我的世界里建造3x3个房屋，一行是House类普通房屋，一行是RoudHouse圆顶房屋继承自House类，其他代码重用父类的，只有buildRoof用自己的，一行是TriangleHouse尖顶房屋同理继承自House类    
 3.3个房屋的建造效果截图显示到readme.md里  
-4.代码参考
+4.代码参考  
 
 
