@@ -28,3 +28,8 @@ hello i am wdk
 
 # assignment4
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/4/result.png)  
+
+# assignment5
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/pencontainer.png)  
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/flower.png)  
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/star.png)  
