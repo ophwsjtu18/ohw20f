@@ -10,6 +10,7 @@
 ![3d1](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/%E5%BF%83%E5%BD%A2%E6%8C%82%E4%BB%B6.png)
 ![3d2](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/%E5%A4%A7%E5%AE%9D%E5%89%91.png)
 ![3d3](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/%E4%BA%94%E8%A7%92%E6%98%9F%E6%8C%82%E4%BB%B6.png)
+![image](https://github.com/ophwsjtu18/ohw20f/blob/main/dml/f60dd7f6a5aeb779af8ab09ba211b49.png)
 
 
 
