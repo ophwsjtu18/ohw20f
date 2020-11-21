@@ -7,3 +7,6 @@ Plane-rooftop:
 
 Round-rooftop:
 ![](https://raw.githubusercontent.com/ophwsjtu18/ohw20f/main/liuyaoyu/homework20201118/pics/round_roof.png)
+
+Triangle-rooftop:
+![](https://raw.githubusercontent.com/ophwsjtu18/ohw20f/main/liuyaoyu/homework20201118/pics/triangle_roof.png)
