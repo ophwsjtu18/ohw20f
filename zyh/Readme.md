@@ -15,4 +15,5 @@
 ![作业5_Buckle](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/SJTU%E5%8D%A1%E6%89%A3.png?raw=true "Buckle")  
 * [作业5_Synchro](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true)  
 ![作业5_Synchro](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true "Synchro")  
-
+* [作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true)  
+![作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true "HouseClass")  
