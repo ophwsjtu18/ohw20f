@@ -15,5 +15,5 @@
 # homework4
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW4/hw4.png)
 
-#homework6
+# homework6
 ![alt_text](https://github.com/ophwsjtu18/ohw20f/blob/main/sqy/HW6/difroof.png)
