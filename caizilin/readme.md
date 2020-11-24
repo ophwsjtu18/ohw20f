@@ -43,3 +43,8 @@ cv2.waitKey(0)
 第四次作业图片：
 
 ![markdown cheat sheet](https://github.com/ophwsjtu18/ohw20f/blob/main/caizilin/week9/results.PNG)
+
+第五次作业图片：
+
+![markdown cheat sheet](https://github.com/ophwsjtu18/ohw20f/blob/main/caizilin/week11/houseseries.png)
+
