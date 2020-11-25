@@ -1,0 +1,109 @@
+class House():
+    def __init__(self,x,y,z):
+        self.x=x
+        self.y=y
+        self.z=z
+        print("hello world.I will build a house at",self.x,self.y,self.z)
+    def setLWH(self,l,w,h):
+        self.l=l
+        self.w=w
+        self.h=h
+    def _buildwall(self):
+        print("I will build 4 line as 4 wall at",self.x,self.y,self.z)
+        for a in range(self.l):
+            for b in range(self.h):
+                mc.setBlock(self.x+a,self.y+b,self.z,5)                    
+        for a in range(self.l):
+            for b in range(self.h):
+                mc.setBlock(self.x+a,self.y+b,self.z+self.w,5)
+        for a in range(self.w):
+            for b in range(self.h):
+                mc.setBlock(self.x,self.y+b,self.z+a,5)
+        for a in range(self.w):
+            for b in range(self.h):
+                mc.setBlock(self.x+self.l,self.y+b,self.z+a,5)
+    def _buildroof(self):
+        print("I will build 4 line as 4 roof at",self.x,self.y+self.h,self.z)
+        for a in range(self.l+1):
+            for b in range(self.w+1):
+                mc.setBlock(self.x+a,self.y+self.h,self.z+b,1)
+    def _builddoor(self):
+        for a in range(3):
+            mc.setBlock(self.x+2,self.y,self.z+a,0)
+    def _buildwindow(self):
+        mc.setBlock(self.x+3,self.y+4,self.z,0)
+        mc.setBlock(self.x,self.y+3,self.z+3,0)
+    def buildall(self):
+        self._buildwall()
+        self._buildroof()
+        self._builddoor()
+        self._buildwindow()
+class Housee(House):
+    def _buildroof(self):
+        for a in range(self.l+1):
+            for b in range(self.w+1):
+                mc.setBlock(self.x+a,self.y+self.h,self.z+b,1)
+        for a in range(self.l-1):
+            for b in range(self.w-1):
+                mc.setBlock(self.x+a+1,self.y+self.h+1,self.z+b+1,1)
+        for a in range(self.l-3):
+            for b in range(self.w-3):
+                mc.setBlock(self.x+a+2,self.y+self.h+2,self.z+b+2,1)
+        for a in range(self.l-5):
+            for b in range(self.w-5):
+                mc.setBlock(self.x+a+3,self.y+self.h+3,self.z+b+3,1)
+        for a in range(self.l-7):
+            for b in range(self.w-7):
+                mc.setBlock(self.x+a+4,self.y+self.h+4,self.z+b+4,1)
+    def buildall(self):
+        self._buildwall()
+        self._buildroof()
+        self._builddoor()
+        self._buildwindow()
+class Houseee(House):
+    def _buildroof(self):
+        for a in range(self.l+1):
+            for b in range(self.w+1):
+                mc.setBlock(self.x+a,self.y+self.h,self.z+b,1)
+        for a in range(self.l-1):
+            for b in range(self.w-1):
+                mc.setBlock(self.x+a+1,self.y+self.h-1,self.z+b+1,1)
+        for a in range(self.l-3):
+            for b in range(self.w-3):
+                mc.setBlock(self.x+a+2,self.y+self.h-2,self.z+b+2,1)
+        for a in range(self.l-5):
+            for b in range(self.w-5):
+                mc.setBlock(self.x+a+3,self.y+self.h-3,self.z+b+3,1)
+        for a in range(self.l-7):
+            for b in range(self.w-7):
+                mc.setBlock(self.x+a+4,self.y+self.h-4,self.z+b+4,1)
+        for a in range(self.l-1):
+            for b in range(self.w-1):
+                mc.setBlock(self.x+a+1,self.y+self.h,self.z+b+1,0)
+        for a in range(self.l-3):
+            for b in range(self.w-3):
+                mc.setBlock(self.x+a+2,self.y+self.h-1,self.z+b+2,0)
+        for a in range(self.l-5):
+            for b in range(self.w-5):
+                mc.setBlock(self.x+a+3,self.y+self.h-2,self.z+b+3,0)
+        for a in range(self.l-7):
+            for b in range(self.w-7):
+                mc.setBlock(self.x+a+4,self.y+self.h-3,self.z+b+4,0)
+    def buildall(self):
+        self._buildwall()
+        self._buildroof()
+        self._builddoor()
+        self._buildwindow()
+import mcpi.minecraft as minecraft
+import mcpi.block as block
+mc=minecraft.Minecraft.create()
+pos=mc.player.getTilePos()
+house1=House(pos.x+1,pos.y+1,pos.z)
+house2=Housee(pos.x+1,pos.y+1,pos.z+13)
+house3=Houseee(pos.x+1,pos.y+1,pos.z+26)
+house1.setLWH(9,9,9)
+house1.buildall()
+house2.setLWH(9,9,9)
+house3.setLWH(9,9,9)
+house2.buildall()
+house3.buildall()

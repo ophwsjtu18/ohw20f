@@ -33,3 +33,6 @@ hello i am wdk
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/pencontainer.png)  
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/flower.png)  
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/5/star.png)  
+
+# assignment6
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/6/houses.png)  

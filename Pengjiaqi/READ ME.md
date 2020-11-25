@@ -18,3 +18,9 @@ My first table in Github
 ![floor](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week8/ABCDEFGHI.jpg)
 
 ![hit](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week9/assignment.jpg)
+
+![House](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week11/All.png)
+
+![House](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week11/RoundRoof.png)
+
+![House](https://github.com/ophwsjtu18/ohw20f/blob/main/Pengjiaqi/week11/TriangleRoof.png)

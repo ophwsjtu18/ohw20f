@@ -1,6 +1,6 @@
 # 作业  
-* [作业1](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_1/lena.jpg?raw=true)  
-![作业1](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_1/lena.jpg?raw=true)
+* [作业1](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_1/%E7%A7%91%E6%AF%94.jpg?raw=true)  
+![作业1](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_1/%E7%A7%91%E6%AF%94.jpg?raw=true)
 * [作业2](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_2/House.png?raw=true)  
 ![作业2](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_2/House.png?raw=true)
 * [作业3_floor](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_3/floor.png?raw=true)  
@@ -15,4 +15,5 @@
 ![作业5_Buckle](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/SJTU%E5%8D%A1%E6%89%A3.png?raw=true "Buckle")  
 * [作业5_Synchro](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true)  
 ![作业5_Synchro](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true "Synchro")  
-
+* [作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E4%B8%8D%E5%90%8C%E7%9A%84%E6%88%BF%E5%AD%90.png?raw=true)  
+![作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E4%B8%8D%E5%90%8C%E7%9A%84%E6%88%BF%E5%AD%90.png?raw=true "HouseClass")  
