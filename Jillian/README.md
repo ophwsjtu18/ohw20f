@@ -1,7 +1,8 @@
 | 姓名 | 学号 |
 |------|------|
 |申屠佳颖|518021910874|
-
+week11homework
+![image](https://github.com/ophwsjtu18/ohw20f/blob/main/Jillian/week11/week11.png)
 Week8homework
 ![image](https://github.com/ophwsjtu18/ohw20f/blob/main/Jillian/week8/地板.png)
 ![image](https://github.com/ophwsjtu18/ohw20f/blob/main/Jillian/week8/外观.png)
