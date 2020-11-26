@@ -1,4 +1,3 @@
-// get the buttons 
 const upButton = document.querySelector('#up-button')
 const downButton = document.querySelector('#down-button')
 const leftButton = document.querySelector('#left-button')
@@ -6,18 +5,16 @@ const rightButton = document.querySelector('#right-button')
 const cycleButton = document.querySelector('#cycle-button')
 const arrowButtons = [upButton, downButton, leftButton, rightButton, cycleButton]
 
-const clickCallbackFactory = (id) => {
+const sendMoveArrowFunction = (arrow) => {
+    const action = '/cgi-bin/handle_arrow.py'
     return () => {
-        const arrow = id.substring(0, id.indexOf('-'))
-        console.log(arrow)
-        $.get('/cgi-bin/handle_arrow.py', 
-        {
-            arrow
-        })
+        $.get(action, { arrow })
+        console.log(`sendMoveInstruction: ${arrow}`)
     }
 }
 
 arrowButtons.forEach((button) => {
-    button.addEventListener('click', clickCallbackFactory(button.id))
+    const arrow = button.id.substring(0, button.id.indexOf('-'))
+    button.addEventListener('click', sendMoveArrowFunction(arrow))
 }
 )
