@@ -18,3 +18,16 @@ arrowButtons.forEach((button) => {
     button.addEventListener('click', sendMoveArrowFunction(arrow))
 }
 )
+
+const mapKeyToString = {
+    37: 'left',
+    38: 'up',
+    39: 'right',
+    40: 'down',
+}
+window.addEventListener('keydown', (e) => {
+    const arrow = mapKeyToString[e.keyCode]
+    if (arrow !== undefined) {
+        sendMoveArrowFunction(arrow)()
+    }
+})
