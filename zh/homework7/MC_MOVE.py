@@ -1,4 +1,4 @@
-#!C:\Users\zeng1\AppData\Local\Programs\Python\Python37\python.exe
+#!/usr/bin/python3
 #coding=utf-8
 import cgi, cgitb
 
@@ -11,8 +11,6 @@ mc = Minecraft.create("127.0.0.1", 4711)
 form = cgi.FieldStorage()
 
 site_dir = form.getvalue("mc_dir")
-
-move_loop = form.getvalue("mc_move_loop")
 
 #实际上 getpython.html 中设置成了不跳转
 print("Content-type:text/html")
@@ -53,7 +51,7 @@ elif site_dir=="d":
     print('pos:(', pos.x, ',', pos.y, ',', pos.z, ')')
     time.sleep(0.2)
 
-if move_loop=="l":
+if sire_dir=="l":
     j = 0
     while j < 3:
         pos = mc.player.getTilePos()
