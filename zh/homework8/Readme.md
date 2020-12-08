@@ -6,4 +6,4 @@
   mc_control为语音同步控制mc与舵机的py程序  
   下图为舵机连线图  
 ![image](https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework8/servo_line.JPG?raw=true)
-[image](https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework8/servo_line.JPG?raw=true)
+[servo_line](https://github.com/ophwsjtu18/ohw20f/blob/main/zh/homework8/servo_line.JPG?raw=true)
