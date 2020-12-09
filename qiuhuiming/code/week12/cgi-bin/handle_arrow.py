@@ -1,5 +1,7 @@
 #!C:\dev\Anaconda3\python.exe
 #coding=utf-8
+
+# 第一行在服务器环境中要改
 import cgi, cgitb
 from typing import AnyStr 
 from mcpi.minecraft import Minecraft

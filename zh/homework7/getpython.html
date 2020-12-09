@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>MC_MOVE</title>
+</head>
+<body>
+<form action="/cgi-bin/MC_MOVE.py" method="post" target="nm_iframe">
+    <div class="row">
+        <button name="mc_dir" type="submit" value="w">UP</button>
+    </div>
+    <div class="row">
+    <button name="mc_dir" type="submit" value="a">LEFT</button>
+    <button name="mc_dir" type="submit" value="l">MOVE_LOOP</button>
+    <button name="mc_dir" type="submit" value="d">RIGHT</button>
+    </div>
+    <button name="mc_dir" type="submit" value="s">DOWN</button>
+</form>
+
+<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
+
+</body>
+</html>

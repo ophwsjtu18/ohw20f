@@ -36,3 +36,7 @@ hello i am wdk
 
 # assignment6
 ![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/6/houses.png)  
+
+# assignment7
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/7/1.png)  
+![alt text](https://github.com/ophwsjtu18/ohw20f/blob/main/wdk/assignment/7/2.gif)  
