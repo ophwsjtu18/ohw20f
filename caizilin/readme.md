@@ -48,3 +48,10 @@ cv2.waitKey(0)
 
 ![markdown cheat sheet](https://github.com/ophwsjtu18/ohw20f/blob/main/caizilin/week11/houseseries.png)
 
+第六次作业：
+
+详见week12
+
+第七次作业：
+
+详见week13视频文件
