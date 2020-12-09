@@ -3,7 +3,6 @@ from mcpi.minecraft import Minecraft
 import time
 mc = Minecraft.create()
 
-
 class House():
     # x, y, z 是房子一个角的坐标
     x = None
