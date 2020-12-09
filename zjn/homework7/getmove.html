@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>CONTROL_MOVE</title>
+</head>
+<body>
+<form action="/cgi-bin/mcmove.py" method="post" target="nm_iframe">
+移动选项：
+    <div class="row">
+    <button name="mc_dir" type="submit" value="1">x+</button>
+    <button name="mc_dir" type="submit" value="2">x-</button>
+    </div>
+
+    <div class="row">
+    <button name="mc_dir" type="submit" value="3">z+</button>
+    <button name="mc_dir" type="submit" value="4">z-</button>
+    </div>
+
+    <div class="row">
+    <button name="mc_dir" type="submit" value="5">Round</button>
+
+    </div>
+</form>
+
+<iframe id="id_iframe" name="nm_iframe" style="display:none;"></iframe>
+
+</body>
+</html>
