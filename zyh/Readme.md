@@ -17,7 +17,7 @@
 ![作业5_Synchro](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_5/%E5%90%8C%E6%AD%A5%E5%B8%A6%E8%BD%AE.png?raw=true "Synchro")  
 * [作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E4%B8%8D%E5%90%8C%E7%9A%84%E6%88%BF%E5%AD%90.png?raw=true)  
 ![作业6_HouseClass](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_6/%E4%B8%8D%E5%90%8C%E7%9A%84%E6%88%BF%E5%AD%90.png?raw=true "HouseClass")
-* [作业7_ApachePi_cgi](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework7/Apache_cgi.jpg?raw=true)  
+* [作业7_ApachePi_cgi](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework7/%E6%A0%91%E8%8E%93%E6%B4%BE_html_mc.mp4)  
 ![作业7_ApachePi_cgi](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework7/Apache_cgi.jpg?raw=true "ApachePi_cgi")  
 * [作业8_voice_control](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_8/voice_CT.jpg?raw=true)  
 ![作业8_voice_control](https://github.com/ophwsjtu18/ohw20f/blob/main/zyh/Homework_8/voice_CT.jpg?raw=true "voice_control")  
