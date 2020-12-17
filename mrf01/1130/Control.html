@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<title>mc</title> 
+<style>
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    border-radius: 12px;
+    width: 100px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+  .button:hover {background-color: #3e8e41}
+
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+</style>
+
+</head>
+
+<body>
+<form action="/cgi-bin/get.py" type="post" target="targetIfr">
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button name = "mc_dir" type="submit" class="button" value="up">up</button> <br />
+  <button name = "mc_dir" type="submit" class="button" value="left">left</button>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; 
+  <button name = "mc_dir" type="submit" class="button" value="right">right</button> <br />
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button name = "mc_dir" type="submit" class="button" value="down">down</button> <br />
+</form>
+<iframe name="targetIfr" style="display:none"></iframe>
+</body>
+</html>
