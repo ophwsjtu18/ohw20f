@@ -4,9 +4,9 @@ from moocxing.robot.Brain import Brain
 mx = MOOCXING()
 
 # 自己注册百度API
-APP_ID='23084383'
-API_KEY='OVroLCSOKhNl2XOZ155PlknW'
-SECRET_KEY='Af4yMbptkkXdz7gw7LzUL5Sa49y3Mc8m'
+APP_ID='23084380'
+API_KEY='EA9AecRFjp4ANTNYMcNsMNlG'
+SECRET_KEY='e39Me7K6RrM3aA90aGTs2BPVxkUs8l8m'
 
 # 初始化播放器和录音模块
 media = mx.initMedia()
