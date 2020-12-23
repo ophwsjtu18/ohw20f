@@ -1,0 +1,49 @@
+import cv2
+import random
+import time
+import numpy as np
+print("hello")
+
+mode=True
+ix,iy=-1,-1
+
+img0=cv2.imread("cat.jpg")
+imgold=img0.copy()
+head=img0[300:400,300:400].copy()
+
+mouse=[[0,0,0,0],[0,0,0,0],[0,0,0,0],[0,0,0,0]]
+score=0
+def draw_circle(event,x,y,flags,param):
+    global ix,iy,drawing,score
+    if event==cv2.EVENT_LBUTTONDOWN:
+        ix=int(x/100)
+        iy=int(y/100)
+        print(ix)
+        print(iy)
+        if mouse[ix][iy]==1:
+            score+=1
+            
+img=np.zeros((512,512,3),np.uint8)
+cv2.namedWindow('cat')
+cv2.setMouseCallback('cat',draw_circle)
+
+while(1):
+    img0=imgold.copy()
+
+    for x in range(3):
+        for y in range(3):
+            if random.randint(0,9)>5:
+                img0[x*100:(x+1)*100,y*100:(y+1)*100]=head
+                mouse[x][y]=1
+            else:
+                mouse[x][y]=0
+
+    font=cv2.FONT_HERSHEY_SIMPLEX
+    cv2.putText(img0,"score:"+str(score),(10,30),font,1,(255,255,255),2)
+    cv2.imshow('cat',img0)
+    k=cv2.waitKey(1000)&0xFF
+    if k==ord('m'):
+        mode=not mode
+    elif k==27:
+        break
+
