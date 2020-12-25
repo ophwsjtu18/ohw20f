@@ -1,0 +1,14 @@
+import os
+from time import sleep
+from mcpi.minecraft import Minecraft
+mc= Minecraft.create("127.0.0.1",4711)
+while True:
+    pos=mc.player.getTilePos()
+    print(pos)
+    if os.path.isfile("move.txt"):
+        f=open("move.txt")
+        dir=f.read()
+        if dir=="w":
+            mc.player.setTilePos(pos.x+1,pos.y,pos.z)
+            sleep(1)
+

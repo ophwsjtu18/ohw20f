@@ -1,0 +1,40 @@
+<!DOCTYPE html>  
+<html>  
+  <head>  
+    <meta charset="utf-8">  
+	<script language="javascript">     
+	function exec1(command) 
+	{     
+	  var ws = new ActiveXObject("WScript.Shell");      
+	  ws.run(command);
+	}     
+	</script>   
+  </head>  
+  
+<body>
+	<div id="header">
+	<h1>minecraft</h1>
+	</div>
+ 
+	<div id="nav1">
+		front
+        <button onclick="exec1('python /home/pi/Desktop/minecraft_test/front.py')">front</button>
+	</div>
+    
+	<div id="nav2">
+		back
+        <button onclick="exec1('python /home/pi/Desktop/minecraft_test/back.py')">back</button>
+	</div>
+ 
+	<div id="nav3">
+		left
+        <button onclick="exec1('python /home/pi/Desktop/minecraft_test/left.py')">left</button>
+	</div>
+	
+	<div id="nav4">
+		right
+        <button onclick="exec1('python /home/pi/Desktop/minecraft_test/right.py')">right</button>
+	</div>
+	
+</body> 
+</html> 
